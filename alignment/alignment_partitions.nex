@@ -1,0 +1,16 @@
+#nexus
+begin sets;
+        charset gene_12S = 1-402;
+        charset gene_16S = 403-971;
+        charset gene_18S = 972-3049;
+        charset gene_28S = 3050-3838;
+        charset gene_CO1_1 = 3839-4647\3;
+        charset gene_CO1_2 = 3840-4647\3;
+        charset gene_CO1_3 = 3841-4647\3;
+        charset gene_CO2_1 = 4648-5332\3;
+        charset gene_CO2_2 = 4649-5332\3;
+        charset gene_CO2_3 = 4650-5332\3;
+        charset gene_H3_2 = 5333-5640\3;
+        charset gene_H3_3 = 5334-5640\3;
+        charset gene_H3_1 = 5335-5640\3;
+end;

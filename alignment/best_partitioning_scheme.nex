@@ -1,0 +1,26 @@
+#nexus
+begin sets;
+  charset gene_12S = 1-402;
+  charset gene_16S = 403-971;
+  charset gene_18S = 972-3049;
+  charset gene_28S = 3050-3838;
+  charset gene_CO1_1 = 3839-4647\3;
+  charset gene_CO1_2 = 3840-4647\3;
+  charset gene_CO1_3_gene_CO2_3 = 3841-4647\3  4650-5332\3;
+  charset gene_CO2_1 = 4648-5332\3;
+  charset gene_CO2_2 = 4649-5332\3;
+  charset gene_H3_2_gene_H3_3 = 5333-5640\3  5334-5640\3;
+  charset gene_H3_1 = 5335-5640\3;
+  charpartition mymodels =
+    GTR+F+R6: gene_12S,
+    GTR+F+I+G4: gene_16S,
+    GTR+F+I+G4: gene_18S,
+    GTR+F+I+G4: gene_28S,
+    GTR+F+I+G4: gene_CO1_1,
+    GTR+F+I+G4: gene_CO1_2,
+    GTR+F+R10: gene_CO1_3_gene_CO2_3,
+    GTR+F+I+G4: gene_CO2_1,
+    GTR+F+I+G4: gene_CO2_2,
+    K2P+I+G4: gene_H3_2_gene_H3_3,
+    GTR+F+I+G4: gene_H3_1;
+end;
