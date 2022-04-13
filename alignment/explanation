@@ -5,3 +5,5 @@ alignment.partition.nex is the corresponding partitioning file.
 best_partitioning_scheme.nex is the best partitioning scheme + best-fit substitution models according to ModelFinder in IQ-Tree.
 
 alignment.nex is the input file for BEAST2, including partitioning.
+
+
